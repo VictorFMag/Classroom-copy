@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Cabeçalho Responsivo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header-pt1">
+            <span class="material-symbols-outlined" id="btn-menu">menu</span>
+            <div class="logo">
+                <img src="../images/logo_classroom.png" alt="logo">
+                <h1>Google Sala de Aula</h1>
+            </div>
+        </div>
+        <div class="profile-icons">
+            <span class="material-symbols-outlined">add</span>
+            <span class="material-symbols-outlined">apps</span>
+            <img class="profile-photo" src="../images/placeholder.png" alt="Foto de Perfil">
+        </div>
+    </header>
+
+    <div class="content-container">
+        <nav>
+            <div class="nav-pt1">
+                <button id="btn-home">
+                    <span class="material-symbols-outlined">home</span>
+                    <h2>Início</h2>
+                </button>
+                <button>
+                    <span class="material-symbols-outlined">calendar_today</span>
+                    <h2>Agenda</h2>
+                </button>
+            </div>
+
+            <div class="nav-pt2">
+                <button>
+                    <img class="teacher-nav-profile-photo" src="../images/vegeta.jpg" alt="Foto de Perfil">
+                    <h2>Matéria qualquer</h2>
+                </button>
+                <button>
+                    <img class="teacher-nav-profile-photo" src="../images/placeholder_blue.png" alt="Foto de Perfil">
+                    <h2>Turma</h2>
+                </button>
+                <button>
+                    <img class="teacher-nav-profile-photo" src="../images/placeholder_blue.png" alt="Foto de Perfil">
+                    <h2>Turma</h2>
+                </button>
+                <button>
+                    <img class="teacher-nav-profile-photo" src="../images/placeholder_blue.png" alt="Foto de Perfil">
+                    <h2>Turma</h2>
+                </button>
+                <button>
+                    <img class="teacher-nav-profile-photo" src="../images/placeholder_blue.png" alt="Foto de Perfil">
+                    <h2>Turma</h2>
+                </button>
+            </div>
+
+            <div class="nav-pt3">
+                <button>
+                    <span class="material-symbols-outlined">archive</span>
+                    <h2>Turmas arquivadas</h2>
+                </button>
+                <button>
+                    <span class="material-symbols-outlined">settings</span>
+                    <h2>Configurações</h2>
+                </button>
+                <button>
+                    <span class="material-symbols-outlined">help</span>
+                    <h2>Ajuda</h2>
+                </button>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main-container">
+                <div class="class-card">
+                    <h1>Matéria qualquer</h1>
+                    <p>Vegeta careca</p>
+                </div>
+
+                <div class="real-content">
+                    <div class="prox-atv">
+                        <p id="titulo">Próximas atividades</p>
+                        <p>Tudo feito, pode dormir em paz!</p>
+                        <p id="prox-atv-btn">Ver tudo</p>
+                    </div>
+
+                    <div class="posts">
+                        <div class="card" id="card-post">
+                            <img class="teacher-profile-photo" src="../images/placeholder.png" alt="Foto de Perfil">
+                            <form>
+                                <textarea placeholder="Escreva algo..."></textarea>
+                            </form>
+                        </div>
+
+                        <div class="card">
+                            <div class="start">
+                                <img class="teacher-profile-photo" src="../images/vegeta.jpg" alt="Foto de Perfil">
+                                <div class="card-text">
+                                    <p>Vegeta careca postou uma nova atividade: Atividade 1</p>
+                                    <p id="data">14 de agosto</p>
+                                </div>
+                            </div>
+                            <div class="end">
+                                <span class="material-symbols-outlined">more_vert</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
