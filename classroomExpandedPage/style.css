@@ -21,6 +21,11 @@ span {
     cursor: pointer;
 }
 
+a:visited {
+    text-decoration: none;
+    color: lightgray;
+}
+
 /* Header */
 header {
     display: flex;
