@@ -69,7 +69,7 @@ header {
     text-decoration: underline green;
 }
 
-.logo a:visited, .logo a h1{
+a:visited {
     text-decoration: none;
     color: gray;
 }
