@@ -21,11 +21,6 @@ span {
     cursor: pointer;
 }
 
-a:visited {
-    text-decoration: none;
-    color: gray;
-}
-
 /* Header */
 header {
     display: flex;
@@ -72,6 +67,11 @@ header {
 .logo h1:hover {
     color: green;
     text-decoration: underline green;
+}
+
+.logo h1:visited{
+    text-decoration: none;
+    color: gray;
 }
 
 .profile-icons {
